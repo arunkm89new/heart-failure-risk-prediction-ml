@@ -25,12 +25,14 @@ ROC-AUC → overall class separation
 Accuracy and Precision are reported but not primary
 
 🏆 Model Comparison Results
-Model Accuracy Precision Recall ROC-AUC
-Logistic Regression 0.886 0.872 0.931 0.930
-Random Forest 0.880 0.870 0.922 0.931
-XGBoost 0.848 0.870 0.853 0.916
-Neural Network (MLP) 0.837 0.840 0.873 0.901
-Decision Tree 0.815 0.827 0.843 0.877
+| Model | Accuracy | Precision | Recall | ROC-AUC |
+| ----------------------- | --------- | --------- | --------- | --------- |
+| **Logistic Regression** | **0.886** | **0.872** | **0.931** | **0.930** |
+| Random Forest | 0.880 | 0.870 | 0.922 | 0.931 |
+| XGBoost | 0.848 | 0.870 | 0.853 | 0.916 |
+| Neural Network (MLP) | 0.837 | 0.840 | 0.873 | 0.901 |
+| Decision Tree | 0.815 | 0.827 | 0.843 | 0.877 |
+
 ✅ Final Model Selection
 
 Although ensemble models like Random Forest and XGBoost are generally powerful, Logistic Regression achieved the highest Recall while maintaining a strong ROC-AUC.
